@@ -1,0 +1,12 @@
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: column;
+
+}

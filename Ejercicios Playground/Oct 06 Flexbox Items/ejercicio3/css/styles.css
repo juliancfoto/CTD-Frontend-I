@@ -1,0 +1,9 @@
+.tetris {
+    display: flex;
+}
+
+/* Ubicar la pieza de tetris abajo */
+.pieza-tetris {
+    align-self: flex-end;
+
+}

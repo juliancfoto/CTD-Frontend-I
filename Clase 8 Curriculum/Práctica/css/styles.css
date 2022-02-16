@@ -1,0 +1,89 @@
+
+header {
+    text-align: center;
+    background-position: center;
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+
+.fondo{
+    background-image: url('/Clase 8/Práctica/img/fondo2.jpg');
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+.fondo2{
+    background-image: url('/Clase 8/Práctica/img/fondo3.jpg');
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+
+}
+
+.fondoDiv{
+    background-color: rgba(196, 196, 196, 0.6);
+    
+
+}
+
+.fondoDiv2{
+    background-image: url('/Clase 8/Práctica/img/fondo3.jpg');
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    background-color: #C4C4C4;
+    color: #a51c1c;
+    letter-spacing: 0.3em;
+}
+
+h2 {
+    background-color: #C4C4C4;
+    color: #a51c1c;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    
+}
+
+h3 {
+    background-color: #C4C4C4;
+    color: #a51c1c;
+    text-align: left;
+    font-size: 22px;
+
+}
+
+footer {
+    background-color: #a51c1c;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+ul{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}

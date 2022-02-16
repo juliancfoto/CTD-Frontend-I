@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.encabezado{
+    height: 38px;
+    background-color: #1CD180;
+
+}
+
+.container{
+    width: 50%;
+    height: 40%;
+    border: 3px solid black;
+}
+
+.box{
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+    display: inline-block;
+}

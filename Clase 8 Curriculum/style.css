@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-color: salmon;
+
+}
+
+.fondo{
+    height: 600px;
+    width: 100%;
+    background-image: url('img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.espacio{
+    height: 900px;
+
+}
+
+p{
+    font-weight: bold;
+}

@@ -1,0 +1,163 @@
+/* Estilos en general */
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 768px;
+    width: 1024px;
+}
+/* Estilos en el header */
+header {
+    color: #000;
+
+}
+
+.header1 {
+    background-color: #1CD1B0;
+    height: 38px;
+
+}
+
+/* Texto centrado del header1 */
+.textoHeader1 {
+    box-sizing: border-box;
+    font-size: 15px;
+    position: relative;
+    padding-left: 10px;
+    top: 10px;
+
+}
+
+.header2 {
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 101px;
+    /* position: fixed; */
+
+}
+
+/* Texto centrado del header2 */
+.textoHeader2 {
+    box-sizing: border-box;
+    font-size: 40px;
+    position: relative;
+    padding: 28px;
+
+}
+
+/* Estilos en el main */
+
+/* Secciones con contenido de cada heroe */
+section {
+    background-color: #F3F3F3;
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    height: 528px;
+    position: relative;
+    text-align: center;
+    top: 154px;
+    width: 300px;
+    
+} 
+
+.sectionBatman1 {
+    box-sizing: border-box;
+    display: inline-block;
+    left: 32px;
+    
+
+}
+
+.corazon {
+    box-sizing: border-box;
+    position: relative;
+    bottom: 275px;
+    right: 52px;
+}
+
+.sectionHarleyQuinn {
+    box-sizing: border-box;
+    display: inline-block;
+    left: 62px;
+    
+    
+}
+
+.sectionBatman2 {
+    box-sizing: border-box;
+    display: inline-block;
+    left: 92px;
+    
+
+}
+
+/* Fotos de cada heroe */
+.batman, .harleyQuinn{
+    position: relative;
+    border-radius: 50%;
+    bottom: 65px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+/* Texto de cada heroe */
+.texto {
+    position: relative;
+    bottom: 85px;
+    padding: 17px;
+    text-align: left;
+}
+
+h2 {
+    position: relative;
+    bottom: 65px;
+    padding: 17px;
+
+}
+
+/* Botón 'Ver más' de cada héroe */
+.btn {
+    background-color: #00669F;
+    bottom: 78px;
+    box-sizing: border-box;
+    height: 48.52px;
+    left: 85px;
+    position: relative;
+    width: 128.78px;
+
+}
+
+/* Texto centrado dentro del botón */
+.aBtn {
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+    top: 15px;
+
+}
+
+/* Estilos en el footer */
+footer {
+    background-color: #00669F;
+    height: 51px;
+    position: relative;
+    top: 351px;
+
+}
+
+/* Texto centrado del footer */
+.textoFooter {
+    box-sizing: border-box;
+    color: #FFF9F9;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    padding: 16px;
+
+}

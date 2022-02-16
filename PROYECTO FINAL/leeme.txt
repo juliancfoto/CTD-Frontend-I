@@ -1,0 +1,8 @@
+PROYECTO FINAL FRONTEND I | CERTIFIED TECH DEVELOPER
+Autor: Julián Mateo Caicedo Ruiz
+Fecha: 29 de octubre de 2021
+
+Diseño web: Totalmente terminado
+Diseño mobile: Empezado
+
+Me centré tanto en hacer el diseño web lo mejor posible, que no alcancé a hacer el diseño mobile.

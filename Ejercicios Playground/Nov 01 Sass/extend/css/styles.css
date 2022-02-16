@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* Creamos una clase btn para representar todos los botones, la cual tendrá
+ciertas características generales
+Luego, si queremos especificar algunas características en otros botones,
+utilizamos @extend, para heredar esas características del botón general pero
+añadiéndole alguna otra característica (en este caso se cambió el color de fondo) */
+.btn, .btn-warning, .btn-alert, .btn-success {
+  background-color: coral;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.btn-warning {
+  background-color: red;
+}
+
+.btn-alert {
+  background-color: yellow;
+}
+
+.btn-success {
+  background-color: green;
+}
+/*# sourceMappingURL=styles.css.map */

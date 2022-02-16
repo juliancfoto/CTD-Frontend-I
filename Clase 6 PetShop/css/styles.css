@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#banner{
+    text-align: center;
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 20px;
+    color: white;
+}
+
+header{
+    background-color: #f0a83e;
+
+}
+
+header div{
+    background-color: black;
+}
+
+header span{
+    color: white;
+}
+
+#menu{
+    color: white;
+    font-size: 13px;
+}
+
+#productos{
+    text-align: center;
+}
+
+footer{
+    background-color: #3C2313;
+}
+
+footer p{
+    color: #8A8787;
+    font-size: 10px;
+
+}
+
+#piePagina{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}

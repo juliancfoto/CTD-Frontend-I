@@ -1,0 +1,9 @@
+/* Partial en el que solo se crearán las variables */
+@mixin botonMensaje($background-color) {
+    background-color: $background-color;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+
+}

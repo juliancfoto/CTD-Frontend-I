@@ -1,0 +1,24 @@
+.mi-elemento {
+    /* animation: achicando alternate 1000ms infinite */
+    animation-direction: alternate;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-name: achicando;
+    border-radius: 100%;
+    height: 200px;
+    position: relative;
+    width: 200px;
+}
+
+@keyframes achicando {
+    0% {
+        background-color: salmon;
+    }
+    
+    100% {
+        background-color: peachpuff;
+        height: 100px;
+        width: 100px;
+        opacity: 0.5;
+    }
+}

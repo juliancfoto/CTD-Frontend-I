@@ -1,0 +1,12 @@
+.content {
+  background-color: black;
+}
+
+.content .headline {
+  font-weight: bold;
+}
+
+.content .headline a:hover {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */

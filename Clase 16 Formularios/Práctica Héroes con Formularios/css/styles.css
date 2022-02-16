@@ -1,0 +1,376 @@
+/* Estilos en general */
+/* * {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 1024px;
+    width: 1440px;
+} */
+
+/* Estilos en el header 1*/
+.header1 {
+    background-color: #1CD1B0;
+    height: 23px;
+
+}
+
+/* Texto centrado del header1 */
+.textoHeader1 {
+    color: #000;
+    font-size: 15px;
+    padding-left: 10px;
+    top: 10px;
+
+}
+
+/* Estilos en el header 2*/
+.header2 {
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 80px;
+    /* position: fixed; */
+
+}
+
+/* Texto centrado del header2 */
+.textoHeader2 {
+    display: inline-block;
+    color: #FFFF;
+    font-size: 30px;
+    position: absolute;
+    /* padding-left: 129px; */
+    padding: 27px 20px 18px;
+
+}
+
+/* Logo del header2 */
+.header2 img {
+    margin: 6.94px 10px 3px;
+    padding-bottom: 7px;
+}
+
+/* Estilos en el header 3*/
+.header3 {
+    background-color: #001D2D;
+    display: flex;
+    flex-flow: row wrap;
+    height: 40px;
+    justify-content: flex-end;
+
+}
+
+.header3 ul {
+    display: inline-flex;
+
+}
+
+.header3 li {
+    padding: 10px 20px;
+    
+}
+
+.header3 ul li a {
+    color: #FFFFFF;
+}
+
+/* Estilos en el main */
+
+/* Secciones con contenido de cada heroe */
+.heroes {
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    height: 1024px;
+    width: 1440px;
+}
+
+article {
+    background-color: #F3F3F3;
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 527px;
+    text-align: center;
+    top: 154px;
+    width: 300px;
+    
+} 
+
+/* ESTA ESTÁ BIEN :v .sectionBatman1 {
+    display: inline-block;
+    left: 32px;
+    
+
+} */
+
+/* PRUEBA FLEX */
+.sectionBatman1 {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+
+
+}
+
+.corazon {
+   /*  box-sizing: border-box; */
+    /* position: relative; */
+    bottom: 275px;
+    right: 52px;
+}
+
+.fondoBatman {
+    height: 193px;
+    width: 300px;
+}
+
+/* PRUEBA FLEX CORAZON */
+
+
+.sectionHarleyQuinn {
+    box-sizing: border-box;
+    display: inline-block;
+    left: 62px;
+    
+    
+}
+
+.sectionBatman2 {
+    box-sizing: border-box;
+    display: inline-block;
+    left: 92px;
+    
+
+}
+
+/* Fotos de cada heroe */
+.batman, .harleyQuinn{
+    position: relative;
+    border-radius: 50%;
+    bottom: 65px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+/* Texto de cada heroe */
+.texto {
+    position: relative;
+    bottom: 85px;
+    padding: 17px;
+    text-align: left;
+}
+
+h2 {
+    position: relative;
+    bottom: 65px;
+    padding: 17px;
+
+}
+
+/* Botón 'Ver más' de cada héroe */
+.btn {
+    background-color: #00669F;
+    bottom: 78px;
+    box-sizing: border-box;
+    height: 48.52px;
+    left: 85px;
+    position: relative;
+    width: 128.78px;
+
+}
+
+/* Texto centrado dentro del botón */
+.aBtn {
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+    top: 15px;
+
+}
+
+/* Botón + */
+.buttonAdd {
+    align-self: center;
+
+}
+/* Estilos en el footer */
+footer {
+    background-color: #00669F;
+    height: 51px;
+    top: 351px;
+
+}
+
+/* Texto centrado del footer */
+.textoFooter {
+    box-sizing: border-box;
+    color: #FFF9F9;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px;
+
+}
+
+
+/* FORMULARIOS */
+/* Contenido flex del formulario */
+.formulario {
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    height: 952px;
+    justify-content: center;
+    width: 1440px;
+}
+
+/* Título del formulario */
+.formulario h1 {
+    position: relative;
+    font-family: 'Inter', sans-serif;;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+    margin-bottom: 55px;
+    right: 215px;
+
+}
+
+/* Campos de llenado del formulario */
+input {
+    display: block;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    height: 60px;
+    margin: 10px 0px;
+    padding: 17px 27px;
+    width: 620px;
+    
+}
+
+/* .pseudoelemento::before {
+    content: "$";
+    color: black;
+    height: 30px;
+    width: 30px;
+} */
+
+/* Párrafo final para registrarse del formulario */
+.formulario p {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.4769px;
+    line-height: 28px;
+    margin: 20px;
+}
+
+/* Botón del formulario */
+.formulario button.entrar {
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    height: 54px;
+    margin-top: 60px;
+    width: 614px;
+
+}
+
+.formulario button.reset {
+    background: #888888;
+    border-radius: 23.011px;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    height: 54px;
+    margin-top: 60px;
+    width: 614px;
+
+}
+
+/* Etiquetas ID específicas para los botones del register */
+#btnsRegister{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 620px;
+
+}
+
+#btnsRegister button {
+    height: 53.79px;
+    margin-top: 50px;
+    width: 300px;
+
+}
+
+/* Cambiar de bg cuando se esté sobre un input */
+input:focus {
+    background: rgba(136, 136, 136, 0.2);
+
+}
+
+/* Cambiar de bg cuando se esté sobre un botón */
+.formulario button:hover {
+    background: crimson;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.35);
+
+}
+
+/* Cambio al momento de pasar el cursor sobre el link */
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+    font-weight: bold;
+
+}
+
+/* Selector de país del formulario*/
+.formulario select {
+    display: block;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    height: 60px;
+    margin: 10px 0px;
+    padding: 17px 27px;
+    width: 620px;
+
+}
+
+/* Países del select */
+#argentina {
+    background-color: rgba(0, 255, 255, 0.7);
+}
+
+#brasil {
+    background-color: rgba(0, 128, 0, 0.7);
+}
+
+#colombia {
+    background-color: rgba(255, 255, 0, 0.7);
+}
+
+#peru {
+    background-color: rgba(221, 33, 33, 0.7);
+}
+
+/* Estilos de contact */
+/* Área de texto */
+#mensaje {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    height: 251px;
+    line-height: 25px;
+    padding: 22px 38px 38px 28px;
+    width: 620px;
+}

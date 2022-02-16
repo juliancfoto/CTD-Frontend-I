@@ -1,0 +1,77 @@
+.btn, .btn-warning, .btn-alert, .btn-success {
+  background-color: coral;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.btn-warning {
+  background-color: red;
+}
+
+.btn-alert {
+  background-color: yellow;
+}
+
+.btn-success {
+  background-color: green;
+}
+
+.btn:hover, .btn-warning:hover, .btn-alert:hover, .btn-success:hover {
+  opacity: 0.8;
+}
+
+.gridContainer {
+  border-style: double;
+  border-color: crimson;
+  /* display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 100px);*/
+  height: 40%;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 5%;
+  padding: 5px;
+  width: 80%;
+}
+
+.gridContainer .grid, .gridContainer .grid-item1, .gridContainer .grid-item2, .gridContainer .grid-item3, .gridContainer .grid-item4, .gridContainer .grid-item5, .gridContainer .grid-item6 {
+  font-weight: bold;
+  margin: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (25%)[4];
+      grid-template-columns: repeat(4, 25%);
+  -ms-grid-rows: (100px)[3];
+      grid-template-rows: repeat(3, 100px);
+}
+
+.gridContainer .grid-item1 {
+  background-color: lightblue;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.gridContainer .grid-item2 {
+  background-color: lightcoral;
+}
+
+.gridContainer .grid-item3 {
+  background-color: lightpink;
+}
+
+.gridContainer .grid-item4 {
+  background-color: lightseagreen;
+}
+
+.gridContainer .grid-item5 {
+  background-color: lightgreen;
+}
+
+.gridContainer .grid-item6 {
+  background-color: lightsalmon;
+}
+/*# sourceMappingURL=styles.css.map */

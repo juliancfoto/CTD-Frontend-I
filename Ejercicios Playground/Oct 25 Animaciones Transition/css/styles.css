@@ -1,0 +1,14 @@
+.mi-elemento {
+    background-color: salmon;
+    height: 100px;
+    /* transition: border-radius 450ms; */
+    transition-property: border-radius;
+    transition-duration: 450ms;
+    width: 100px;
+}
+
+.mi-elemento:hover {
+    border-radius: 50%;
+    transition: 1s;
+    
+}

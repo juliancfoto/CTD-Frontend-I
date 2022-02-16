@@ -1,0 +1,17 @@
+/* Importo el partial de variables */
+@import "_variables.scss";
+
+.warning {
+    @include botonMensaje(red);
+
+}
+
+.alert {
+    @include botonMensaje(yellow);
+
+}
+
+.success {
+    @include botonMensaje(green);
+
+}

@@ -1,0 +1,94 @@
+.btn {
+    background-color: coral;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+
+    &-warning {
+        @extend .btn;
+        background-color: red;
+
+    }
+
+    &-alert {
+        @extend .btn;
+        background-color: yellow;
+        
+    }
+
+    &-success {
+        @extend .btn;
+        background-color: green;
+        
+    }
+
+    &:hover {
+        opacity: 0.8;
+
+    }
+
+}
+
+.gridContainer {
+    border-style: double;
+    border-color: crimson;
+    /* display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 100px);*/
+    height: 40%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 5px;
+    width: 80%;
+
+    .grid {
+        font-weight: bold;
+        margin: 5px;
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(3, 100px);
+
+        &-item1 {
+            @extend .grid;
+            background-color: lightblue;
+            grid-column-start: 1;
+            grid-column-end: 5;
+
+        }
+
+        &-item2 {
+            @extend .grid;
+            background-color: lightcoral;
+
+        }
+
+        &-item3 {
+            @extend .grid;
+            background-color: lightpink;
+
+        }
+
+        &-item4 {
+            @extend .grid;
+            background-color: lightseagreen;
+
+        }
+
+        &-item5 {
+            @extend .grid;
+            background-color: lightgreen;
+
+        }
+
+        &-item6 {
+            @extend .grid;
+            background-color: lightsalmon;
+
+        }
+
+    }
+
+}

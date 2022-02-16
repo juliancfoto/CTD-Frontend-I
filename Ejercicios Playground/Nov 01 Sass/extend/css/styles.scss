@@ -1,0 +1,31 @@
+/* Creamos una clase btn para representar todos los botones, la cual tendrá
+ciertas características generales
+Luego, si queremos especificar algunas características en otros botones,
+utilizamos @extend, para heredar esas características del botón general pero
+añadiéndole alguna otra característica (en este caso se cambió el color de fondo) */
+.btn {
+    background-color: coral;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+
+    &-warning {
+        @extend .btn;
+        background-color: red;
+
+    }
+
+    &-alert {
+        @extend .btn;
+        background-color: yellow;
+        
+    }
+
+    &-success {
+        @extend .btn;
+        background-color: green;
+        
+    }
+
+}

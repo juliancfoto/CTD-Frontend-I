@@ -1,0 +1,12 @@
+/*este es mobiles*/
+  .footer{
+    position: static ;
+  }
+  .header{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .header__title{
+    font-size: 80px;
+  }

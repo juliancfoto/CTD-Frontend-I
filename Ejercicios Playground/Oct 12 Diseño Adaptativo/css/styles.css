@@ -1,0 +1,15 @@
+.arriba {
+    background-color: blueviolet;
+    text-align: center;
+    height:  40vh;
+    width: 100%;
+
+}
+
+.abajo {
+    background-color: brown;
+    text-align: center;
+    height: 60vh;
+    width: 100%;
+
+}

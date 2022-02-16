@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: orange;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+.container{
+    width: 90%;
+    border: 3px solid black;
+    margin-top: 10px;
+    position: relative;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 10px dotted black;
+    /* display: inline-block; */
+}
+
+.box1{
+    background-color: #fa7e70;
+    width: 150px;
+    height: 150px;
+
+}
+
+.box2{
+    background-color: crimson;
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 10px; 
+    position: relative;
+    top: -40px;
+    left: 20px;
+}
+
+.box3{
+    background-color: steelblue;
+    width: 150px;
+    height: 150px;
+}
+/* margin: margen o distancia que tengo con los elementos que me rodean
+margin left, top, right, bottom */

@@ -1,0 +1,17 @@
+.content {
+    background-color: black;
+
+    .headline {
+        font-weight: bold;
+
+        a {
+            &:hover {
+                color: red;
+
+            }
+
+        }
+
+    }
+
+}

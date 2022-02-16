@@ -1,0 +1,27 @@
+/*# sourceMappingURL=styles.css.map */
+@charset "UTF-8";
+/* Importo el partial de variables */
+/* Partial en el que solo se crearán las variables */
+.warning {
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.alert {
+  background-color: yellow;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.success {
+  background-color: green;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}

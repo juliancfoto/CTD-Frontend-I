@@ -1,0 +1,523 @@
+/* 
+    Proyecto Final Frontend I | Certified Tech Developer  
+    Autor: Julián Mateo Caicedo Ruiz
+    Fecha: 29 de octubre de 2021
+ */
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+
+}
+
+/* ESTILOS DEL HEADER */
+header {
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    height: 174px;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.headerContainer {
+    align-items: center;
+    display: flex;
+    height: 174px;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+header img {
+    height: 23.74px;
+    width: 145.54px;
+
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    height: 23px;
+
+}
+
+.menu li {
+    color: #242E52;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22.89px; 
+    margin-right: 28px;
+
+}
+
+.menu li:hover {
+    color: #F3603B;
+    font-size: 17px;
+
+}
+
+/* Botones */
+.button {
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-size: 13.18px;
+    height: 44px;
+    line-height: 19px;
+    padding: 10px;
+    text-align: center;
+    width: 134px;
+
+}
+
+/* Botones de color naranja y blanco */
+.orange {
+    background-color: #F3603B;
+    color: #FFFFFF;
+}
+
+.white {
+    background-color: #FFFFFF;
+    color: #F3603B;
+}
+
+/* Botón del formulario */
+.go {
+    background-color: #F3603B;
+    color: #FFFFFF;
+    height: 42px;
+    width: 63px;
+}
+
+.button:hover {
+    background-color: #232C50;
+    color: #F3603B;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.go:hover {
+    background-color: white;
+
+}
+
+/* ESTILOS DEL MAIN */
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+/* PRIMER CONTAINER 'HOME'*/
+.home {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 80%;
+
+}
+
+/* Frase Home */
+.home__frase {
+    display: flex;
+    flex-flow: column wrap;
+    height: 386px;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    margin-top: 70px;
+    width: 439px;
+
+}
+
+.home__frase h1 {
+    color: #232C50;
+    font-size: 58px;
+    letter-spacing: -0.035em;
+    line-height: 66px;
+
+}
+
+.home__frase p {
+    color: #000000;
+    font-weight: 500;
+    font-size: 16.5px;
+    line-height: 157.1%;
+
+}
+
+/* SEGUNDO CONTAINER 'ABOUT US'*/
+.aboutUs {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 80%;
+
+}
+
+/* Texto introductorio 'about us' */
+.aboutUs__introduction {
+    height: 212px;
+    width: 433px;
+
+}
+
+.aboutUs__introduction h2 {
+    color: #232851;
+    font-size: 36px;
+    line-height: 114.6%;
+
+}
+
+.aboutUs__introduction p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.1%;
+    margin: 36px 0px;
+
+}
+
+/* Partes divididas 'about us' */
+.aboutUs__parts {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+.aboutUs__parts__div {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+/* Numerador */
+.aboutUs__parts span {
+    background-color: #F3603B;
+    border-radius: 30px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    height: 43px;
+    padding: 10px 25px;
+    font-weight: 700;
+    width: 70px;
+}
+
+.aboutUs__parts div{
+    height: 158px;
+    margin-bottom: 27px;
+    width: 553px;
+
+}
+
+/* Contenedor de Subtítulos y párrafos */
+.aboutUs__parts__SP {
+    height: 158px;
+    margin-left: 23px;
+    margin-right: 24px;
+    width: 437px;
+
+}
+
+.aboutUs__parts h3 {
+    color: #323851;
+    font-size: 16px;
+    line-height: 23px;
+    padding-bottom: 18px;
+    padding-top: 6.5px;
+
+}
+
+.aboutUs__parts p {
+    color: #B3B2B7;
+    letter-spacing: -0.01em;
+    line-height: 26px;
+    font-size: 16.2984px;
+
+}
+
+/* TERCER CONTAINER 'TESTIMONIALS'*/
+.testimonials {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: center;
+    margin-top: 125px;
+    margin-bottom: 180px;
+    width: 90%;
+
+}
+
+.testimonials h2 {
+    color: #242E53;
+    font-size: 39.2143px;
+    letter-spacing: -0.01em;
+    line-height: 156.6%;
+    text-align: center;
+
+}
+
+/* Container de todos los testimonios */
+.testimonial__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+
+/* Article por cada testimonio */
+.testimonial__article {
+    text-align: center;
+    width: 33.33%;
+
+}
+
+.testimonial__article__div {
+    background-color: #FAFAFA;
+    height: 258px;
+
+}
+
+.testimonial__article__div:hover {
+    background-color: rgba(243, 96, 59, 0.2);
+    color: #000000;
+}
+
+.testimonial__article__div p:hover {
+    color: #000000;
+}
+
+.testimonial__article img {
+    height: 70px;
+    position: relative;
+    top: 16.5%;
+    width: 70px;
+
+}
+
+.testimonial__article h3 {
+    color: #3F4868;
+    font-size: 16.0714px;
+    letter-spacing: -0.01em;
+    line-height: 156.6%;
+    margin: 21px 0px;
+    padding-top: 56.5px;
+
+}
+
+.testimonial__article p:hover {
+    color: #3f4868cc;
+
+}
+
+.testimonial__article p {
+    color: #B9B9C1;
+    line-height: 156.6%;
+    padding: 21px 21px 38.5px 21px;
+
+}
+
+.testimonials button {
+    align-items: center;
+    margin-top: 45px;
+
+}
+
+/* ESTILOS DEL FOOTER */
+/* Primer footer */
+.footer1 {
+    background-color: #F3613C;
+    display: flex;
+    flex-flow: row wrap;
+    height: 224px;
+    justify-content: center;
+
+}
+
+/* Contenido del primer footer */
+.footer1__container {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    height: 224px;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+.footer1__container p {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -0.005em;
+
+}
+
+.white_button {
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: #F3603B;
+    cursor: pointer;
+    font-size: 13.18px;
+    height: 44px;
+    line-height: 19px;
+    padding: 10px;
+    text-align: center;
+    width: 134px;
+
+}
+
+/* Segundo footer */
+.footer2 {
+    align-items: center;
+    background-color: #1E1E26;
+    display: flex;
+    flex-flow: row wrap;
+    height: 247px;
+    justify-content: space-evenly;
+    
+}
+
+/* Contenido del segundo footer */
+.footerContainer {
+    align-items: center;
+    display: flex;
+    height: 174px;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+/* SECCIÓN LOGO FOOTER Y SOCIALMEDIA */
+.footer2__socialmedia {
+    display: flex;
+    flex-flow: column wrap;
+    height: 112.47px;
+    justify-content: space-between;
+
+}
+
+.footer2__socialmedia ul {
+    cursor: pointer;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+/* Logos de redes sociales */
+.fab {
+    color: white;
+
+}
+
+.fab:hover {
+    color: #F3603B;
+    font-size: xx-large;
+
+}
+
+/* SECCIÓN MENÚ */
+.footer2__menu {
+    display: flex;
+    flex-flow: row wrap;
+    height: 141px;
+    justify-content: space-between;
+    width: 393px;
+
+}
+
+/* div de cada lista */
+.footer2_menu div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+}
+
+.footer2__menu li {
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 12px;
+
+}
+
+.footer2__menu li:hover {
+    color: #F3603B;
+    font-size: 17px;
+
+}
+
+/* SECCIÓN FORMULARIO Y DERECHOS RESERVADOS */
+.footer2__formAndRights {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 138px;
+    width: 273px;
+
+}
+
+/* Formulario de tipo email */
+.footer2__formAndRights input {
+    border-radius: 50px;
+    height: 44px;
+    text-align: center;
+    width: 201px;
+
+}
+
+/* Derechos reservados */
+.footer2__formAndRights span {
+    color: #8C8C94;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 12.5px;
+    justify-content: flex-end;
+    line-height: 18px;
+
+}
+
+.footer2__formAndRights input:focus {
+    background-color: #fcd3c9;
+
+}
+
+
+/* DISEÑO RESPONSIVE --> MOBILE */
+@media screen and (max-width: 375px) {
+
+    /* ESTILOS DEL HEADER */
+    .headerContainer {
+        flex-flow: column wrap;
+
+    }
+
+    header button {
+        display: none;
+
+    }
+    
+    .menu {
+        display: none;
+    }
+
+}
