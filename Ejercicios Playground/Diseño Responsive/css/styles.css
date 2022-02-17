@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+@keyframes contenedor {
+    0% {
+        background-color: rgb(177, 247, 247);
+
+    }
+
+    100% {
+        background-color: rgb(247, 177, 177);
+
+    }
+    
+}
+
+body {
+    background: linear-gradient(to bottom, #f72585, #3a0ca3);
+    background-attachment: fixed;
+
+}
+
+.contenedor_cajas {
+    animation: contenedor alternate 1000ms infinite;
+    /* animation-name: contenedor;
+    animation-direction: alternate;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite; */
+    background-color: rgb(177, 247, 247);
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+    text-align: center;
+    width: 90%;
+
+}
+
+.caja {
+    border: 1px solid red;
+    margin: 5px;
+    padding: 20px;
+    width: 30%;
+
+}
+
+.caja.uno {
+    background-color: rgb(253, 209, 173);
+
+}
+
+/* ANIMACIONES */
+.caja.uno:hover {
+    transform: rotate(160deg);
+
+}
+
+.caja.dos {
+    background-color: rgb(173, 253, 173);
+
+}
+
+/* ANIMACIONES */
+.caja.dos:hover {
+    transform: scale(1.2);
+
+}
+
+.caja.tres {
+    background-color: rgb(173, 173, 253);
+
+}
+
+/* ANIMACIONES */
+.caja.tres:hover {
+    transform: skew(15deg);
+
+}
+
+.caja.cuatro {
+    background-color: rgb(237, 255, 158);
+
+}
+
+/* ANIMACIONES */
+.caja.cuatro:hover {
+    transform: translate(25px);
+
+}
+
+.caja.cinco {
+    background-color: rgb(227, 174, 252);
+
+}
+
+/* ANIMACIONES */
+.caja.cinco:hover {
+    /* Indica el punto de rotacion */
+    transform-origin: bottom right (.60px);
+    transform: rotate(30deg); 
+
+}
+
+.caja.seis {
+    background-color: rgb(216, 253, 173);
+
+}
+
+/* ANIMACIONES */
+.caja.seis:hover {
+    transform: translate3d(12px, 50%, 3em);
+
+}
+
+/* TRANSICIONES */
+/* DE CUADRADO A CIRCULO */
+.cuadrado_circulo {
+    background-color: #f72585;
+    height: 100px;
+    margin: 20px;
+    transition: all 550ms;
+    width: 100px;
+
+}
+
+.cuadrado_circulo:hover {
+    background-color: #3a0ca3;
+    border-radius: 50%;
+
+}
+
+/* CIRCULO CRECIENDO */
+.circulo_creciendo {
+    background-color: #f72585;
+    border-radius: 50%;
+    height: 100px;
+    margin: 20px;
+    transition: all 550ms;
+    width: 100px;
+
+}
+
+.circulo_creciendo:hover {
+    background-color: #3a0ca3;
+    height: 130px;
+    width: 130px;
+
+}
+
+/* ESTRELLA */
+.estrella {
+    background-color: #f72585;
+    
+    height: 100px;
+    margin: 20px;
+    transition: all 550ms;
+    width: 100px;
+
+}
+
+.estrella:hover {
+    background-color: #3a0ca3;
+    border-radius: 50%;
+    transform: translate(-50px);
+
+}
+
+/* CELULAR-TABLET */
+@media (min-width: 480px) and (max-width: 768px) {
+    * {
+        font-size: 1rem;
+
+    }
+    .contenedor_cajas{
+        font-size: 1.5rem;
+    }
+
+    .caja.uno {
+        background-color: rgb(173, 253, 173);
+        
+    }
+    
+    .caja.dos {
+        background-color: rgb(253, 209, 173);
+    
+    }
+    
+    .caja.tres {
+        background-color: rgb(237, 255, 158);
+        
+    }
+    
+    .caja.cuatro {
+        background-color: rgb(173, 173, 253);
+    
+    }
+    
+    .caja.cinco {
+        background-color: rgb(216, 253, 173);
+        
+    }
+    
+    .caja.seis {
+        background-color: rgb(227, 174, 252);
+    
+    }
+    
+}
+
+/* PORTATIL-PC */
+@media (min-width: 768px) {
+    * {
+        font-size: 1.2rem;
+
+    }
+
+    .caja.uno {
+        background-color: rgb(227, 174, 252);
+        
+    }
+    
+    .caja.dos {
+        background-color: rgb(237, 255, 158);
+        
+    }
+    
+    .caja.tres {
+        background-color: rgb(253, 209, 173);
+        
+    }
+    
+    .caja.cuatro {
+        background-color: rgb(216, 253, 173);
+        
+    }
+    
+    .caja.cinco {
+        background-color: rgb(173, 173, 253);
+        
+    }
+    
+    .caja.seis {
+        background-color: rgb(173, 253, 173);
+        
+    }
+
+}
