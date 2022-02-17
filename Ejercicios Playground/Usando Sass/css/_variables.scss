@@ -1,0 +1,5 @@
+/* Partial en el que solo se crearán las variables */
+@mixin colorFigura($background-color) {
+    background-color: $background-color;
+
+}

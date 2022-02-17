@@ -1,0 +1,149 @@
+@import url(_variables.scss);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+@-webkit-keyframes contenedor {
+  0% {
+    background-color: #b1f7f7;
+  }
+  100% {
+    background-color: #f7b1b1;
+  }
+}
+
+@keyframes contenedor {
+  0% {
+    background-color: #b1f7f7;
+  }
+  100% {
+    background-color: #f7b1b1;
+  }
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f72585), to(#3a0ca3));
+  background: linear-gradient(to bottom, #f72585, #3a0ca3);
+  background-attachment: fixed;
+}
+
+.contenedor_cajas {
+  -webkit-animation: contenedor alternate 1000ms infinite;
+          animation: contenedor alternate 1000ms infinite;
+  background-color: #b1f7f7;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 20px auto;
+  text-align: center;
+  width: 90%;
+}
+
+.caja, .caja-uno, .caja-dos, .caja-tres, .caja-cuatro, .caja-cinco, .caja-seis {
+  border: 1px solid red;
+  margin: 5px;
+  padding: 20px;
+  width: 30%;
+}
+
+.caja-uno {
+  background-color: #fdd1ad;
+}
+
+.caja-uno:hover {
+  -webkit-transform: rotate(160deg);
+          transform: rotate(160deg);
+}
+
+.caja-dos {
+  background-color: #adfdad;
+}
+
+.caja-dos:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.caja-tres {
+  background-color: #adadfd;
+}
+
+.caja-tres:hover {
+  -webkit-transform: skew(15deg);
+          transform: skew(15deg);
+}
+
+.caja-cuatro {
+  background-color: #edff9e;
+}
+
+.caja-cuatro:hover {
+  -webkit-transform: translate(25px);
+          transform: translate(25px);
+}
+
+.caja-cinco {
+  background-color: #e3aefc;
+}
+
+.caja-cinco:hover {
+  /* Indica el punto de rotacion */
+  -webkit-transform-origin: bottom right 0.6px;
+          transform-origin: bottom right 0.6px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.caja-seis {
+  background-color: #d8fdad;
+}
+
+.caja-seis:hover {
+  -webkit-transform: translate3d(12px, 50%, 3em);
+          transform: translate3d(12px, 50%, 3em);
+}
+
+/* TRANSICIONES */
+.figura, .figura-cuadrado_circulo, .figura-circulo_creciendo, .figura-circulo_mov {
+  background-color: #f72585;
+  height: 100px;
+  margin: 20px;
+  -webkit-transition: all 550ms;
+  transition: all 550ms;
+  width: 100px;
+}
+
+.figura-cuadrado_circulo:hover {
+  background-color: #3a0ca3;
+  border-radius: 50%;
+}
+
+.figura-circulo_creciendo {
+  border-radius: 50%;
+}
+
+.figura-circulo_creciendo:hover {
+  background-color: #3a0ca3;
+  height: 130px;
+  width: 130px;
+}
+
+.figura-circulo_mov:hover {
+  background-color: #3a0ca3;
+  border-radius: 50%;
+  -webkit-transform: translate(-50px);
+          transform: translate(-50px);
+}
+/*# sourceMappingURL=styles.css.map */
